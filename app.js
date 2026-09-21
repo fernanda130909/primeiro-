@@ -9,10 +9,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     
     if (nome === "admin" && senha === "1234") {
         
-        mensagemErro.textContent = "";
+        mensagemErro.textContent = "erro";
         
         
-        window.location.href = "https://example.com"; 
+        window.location.href = "windows-6210803_1920.webp"; 
     } else {
         mensagemErro.textContent = "Nome ou senha incorretos!";
     }
